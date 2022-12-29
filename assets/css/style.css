@@ -1,3 +1,12 @@
+/* * font-familys
+
+font-family: Monoton , sans-serif;
+font-family: Ubuntu , sans-serif;
+
+
+*/
+
+
 *{
     padding: 0;
     margin: 0;
@@ -14,3 +23,16 @@ html{
 html{
  background-color:#070707, #9d9f9f, #f4f7f8 und #AC8059 ;
 }/*  */
+
+/* **************** font family ************* */
+
+@font-face {
+    font-family:Monoton ;
+    src: url("../fonts/Monoton/Monoton-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
