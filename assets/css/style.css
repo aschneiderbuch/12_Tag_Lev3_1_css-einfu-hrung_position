@@ -7,27 +7,28 @@ font-family: Ubuntu , sans-serif;
 */
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
 
-html{
+html {
     font-size: 16px;
     scroll-behavior: smooth;
     max-width: 1400px;
 }
 
-html{
- background-color:#070707, #9d9f9f, #f4f7f8 und #AC8059 ;
-}/*  */
+html {
+}
+
+/*  */
 
 /* **************** font family ************* */
 
 @font-face {
-    font-family:Monoton ;
+    font-family: Monoton;
     src: url("../fonts/Monoton/Monoton-Regular.ttf");
 
 }
@@ -35,4 +36,117 @@ html{
 @font-face {
     font-family: Ubuntu;
     src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+
+/* ***************** body ****************** */
+/* ***************** body ****************** */
+/* ***************** body ****************** */
+
+
+body{
+    background-color: #070707;
+
+}
+
+
+
+
+
+
+/* ***************** header ***************** */
+/* ***************** header ***************** */
+/* ***************** header ***************** */
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #9d9f9f;
+
+}
+
+/* ***************** header links ************** */
+
+.header__links {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+
+
+}
+
+.header__links>p {
+    background-color: yellow;
+    font-family: Monoton, sans-serif;
+    font-size: 2rem;
+
+    color: #9d9f9f;
+
+
+}
+
+.header__links>a {
+    background-color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+    font-size: 0.8rem;
+
+    color: #9d9f9f;
+
+}
+
+
+/* **************** header rechts ************** */
+
+.header__rechts {
+    background-color: rgb(69, 69, 195);
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    align-items: center;
+
+    font-size: 1rem;
+    padding-right: 5vw;
+
+
+}
+
+.header__rechts>a {
+    background-color: yellow;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.05rem;
+
+color: #AC8059;
+}
+
+/* ********* header rechts extra farbe     home   ****** */
+
+.header__rechts>a:nth-of-type(1){
+    background-color: orange;
+    color: #f4f7f8;
+}
+
+/* ****************** main ***************** */
+/* ****************** main ***************** */
+/* ****************** main ***************** */
+
+main{
+    display: flex;
+    max-width: 1400px;     /* * max-width auch im html 1400px */
+
+}
+
+
+/* ****************** main text ***************+ */
+
+.main__text {
+    background-color: greenyellow;
+    width: 60vw;
+    margin-top: 40vh;
 }
