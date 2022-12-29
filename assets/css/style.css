@@ -267,3 +267,23 @@ footer{
 
 /* ******************** buttons ******************** */
 
+.footer__buttons{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    margin-right: 8rem;
+
+    width: 8vw;
+}
+
+.footer__buttons>a{
+    text-decoration: none;
+    border-radius: 10rem;
+    font-size: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.55rem;
+    border: 0.5px solid #AC8059;
+    color: #AC8059;
+}
