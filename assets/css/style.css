@@ -208,7 +208,7 @@ main{
 
     object-fit: cover;
 
-    object-position: -2.3rem;
+    object-position: -2.3rem; /* *Stuhl als Kante */
 }
 
 .main__bilder>img:nth-of-type(2){
@@ -236,4 +236,34 @@ main{
 
     object-position:-2.5rem;  /* *verschieben des Bildes im Rahmen, damit man teile des Buches auf Tisch sieht */
 }
+
+/* ******************** footer ******************** */
+/* ******************** footer ******************** */
+/* ******************** footer ******************** */
+
+
+footer{
+    background-color: green;
+    margin-top: 8rem;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ****************** footer icons ************** */
+
+.footer__icons{
+    height: 90%;
+    margin-left: 4rem;
+}
+
+.footer__icons>img{
+    background-color: #9d9f9f;
+    color: white;
+    height: 100%;
+
+}
+
+/* ******************** buttons ******************** */
 
