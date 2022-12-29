@@ -178,6 +178,14 @@ main{
         
 }
 
+#strich{
+    background-color: #AC8059;
+    display: inline-block;
+    height: 2px;
+    width: 5vw;
+    margin-bottom:4px ;
+}
+
 /* ****************** main bilder ************** */
 
 
