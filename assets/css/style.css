@@ -157,7 +157,7 @@ main{
 
 .main__text {
     background-color: greenyellow;
-    width: 60vw;
+    width: 25vw;
     margin-top: 30vh;
     margin-left: 15vw;
 }
@@ -182,8 +182,58 @@ main{
     background-color:blue;
     color: #AC8059;
     margin-bottom: -30px;
-    text-decoration:line-through;
+    text-decoration:line-through;   /* * wie bekommt man strich ohne svg hin ? */
     width: 20px;
     height: 2px;
         
 }
+
+/* ****************** main bilder ************** */
+
+
+.main__bilder{
+    background-color: red;
+    width: 40vw;
+    position: relative;
+}
+
+.main__bilder>img:nth-of-type(1){
+    border: 1px solid red;
+    position: absolute;
+    top: 0px ;
+    left: 40px;
+    width: 15vw;
+    height: 70vh;
+    z-index: 100;
+
+    object-fit: cover;
+
+    object-position: -2.3rem;
+}
+
+.main__bilder>img:nth-of-type(2){
+    border: 1px solid yellow;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 15vw;
+    height: 70vh;
+
+    object-fit:cover;
+
+    object-position: -6rem;  /* * Heizung abschneiden */
+}
+
+.main__bilder>img:nth-of-type(3){
+    border: 1px solid greenyellow;
+    position: absolute;
+    top: 0;
+    left: 550px;
+    width: 15vw;
+    height: 70vh;
+    
+    object-fit: cover;
+
+    object-position:-2.5rem;  /* *verschieben des Bildes im Rahmen, damit man teile des Buches auf Tisch sieht */
+}
+
