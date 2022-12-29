@@ -144,6 +144,9 @@ color: #AC8059;
 /* ****************** main ***************** */
 
 main{
+
+    padding-top: 15vh;    /* * damit die Bilder am Anfang nicht gleich unter dem Header sind */
+
     display: flex;
     max-width: 1400px;     /* * max-width auch im html 1400px */
 
@@ -155,5 +158,32 @@ main{
 .main__text {
     background-color: greenyellow;
     width: 60vw;
-    margin-top: 40vh;
+    margin-top: 30vh;
+    margin-left: 15vw;
+}
+
+
+.main__text>p:nth-of-type(1){
+    background-color: yellow;
+    color: #9d9f9f;
+    font-family: Ubuntu , sans-serif;   
+    font-size: 4rem;
+}
+
+.main__text>p:nth-of-type(2){
+ background-color: rgb(9, 134, 74);   
+ color: #AC8059;
+ text-transform: uppercase;
+ padding-left: 4vw;
+
+}
+
+.main__text>p>span{
+    background-color:blue;
+    color: #AC8059;
+    margin-bottom: -30px;
+    text-decoration:line-through;
+    width: 20px;
+    height: 2px;
+        
 }
